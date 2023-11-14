@@ -634,12 +634,12 @@ footer {
 }
 
 .col2_asesor button {
-    width: 80%;
+    width: 100%;
     background-color: var(--grisoscuro);
     color: white;
     font-weight: 600;
     font-size: 20px;
-    padding: 5px;
+    padding: 5px 50px;
     margin-top: 20px;
     border: none;
     border-radius: 20px;

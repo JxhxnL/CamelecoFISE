@@ -110,3 +110,19 @@ $(document).ready(function () {
         $("#patrocinadores-carousel").slick("slickNext");
     });
 });
+
+//PDF
+
+document.getElementById('descargarbrochure').addEventListener('click', function() {
+    var pdfURL = './img/Brochure.pdf';
+
+
+    var link = document.createElement('a');
+    link.href = pdfURL;
+    link.download = 'Brochure_cameleco.pdf';
+
+ 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+});
