@@ -54,13 +54,13 @@ imagen1clic.onclick = function () {
 const imagen2clic = document.getElementById("imagen2clic");
 
 imagen2clic.onclick = function () {
-    window.open("https://www.facebook.com/CamelecoSAS", "_blank", "noopener noreferrer");
+    window.open("https://cameleco.com", "_blank", "noopener noreferrer");
 };
 
 const imagen3clic = document.getElementById("imagen3clic");
 
 imagen3clic.onclick = function () {
-    window.open("https://www.linkedin.com/company/cameleco-limitada/?originalSubdomain=co", "_blank", "noopener noreferrer");
+    window.open("https://forms.office.com/Pages/ResponsePage.aspx?id=vY0nbKcpz0a0ykG9ez71GIwK-iJYMlVLlmJ0A_CQkK9UQzlDWjVSR1JZVkIyMkhEMVc4U0tHVTMxNy4u", "_blank", "noopener noreferrer");
 };
 
 //Responsive imagenes carrusel
